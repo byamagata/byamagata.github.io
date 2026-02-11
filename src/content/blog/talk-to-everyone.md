@@ -1,6 +1,6 @@
 ---
 title: 'Talk to Everyone'
-description: 'The best advice I can give to any associate engineer? Talk to Everyone'
+description: 'The best advice I can give to any engineer? Talk to Everyone'
 pubDate: 'Feb 10 2026'
 # heroImage: '../../assets/the-digital-garden-hero.png'
 ---
