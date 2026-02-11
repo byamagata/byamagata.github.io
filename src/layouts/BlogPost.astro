@@ -52,6 +52,20 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.prose :global(.hero-text) {
+				font-size: 2.5rem;
+				font-weight: 700;
+				text-align: center;
+				color: rgb(var(--black));
+				margin: 1.5em 0;
+				display: inline-block;
+				width: 100%;
+				cursor: default;
+				transition: transform 0.3s ease;
+			}
+			.prose :global(.hero-text:hover) {
+				transform: scale(1.08) rotate(-2deg);
+			}
 		</style>
 	</head>
 
